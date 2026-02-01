@@ -1,0 +1,15 @@
+.long-term-container {
+    display: grid;
+    grid-template-columns: 19vw 10vw 10vw 10vw;
+    align-items: center;
+    gap: 5vw;
+    background-color: #ffff;
+
+    margin-top: 3.5vw;
+}
+
+.longterminput,
+.deadline {
+    width: 15vw;
+    height: 4vh;
+}

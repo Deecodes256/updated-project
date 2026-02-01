@@ -1,0 +1,19 @@
+.url-redirect {
+    font-size:$primary-width;
+
+}
+.tip-paragraph{
+    line-height: 2.5vh;
+}
+
+.menu-links>a {
+    text-decoration: none;
+    margin-bottom: 0.2vw;
+}
+.dropdown::after{
+    font-size: $primary-width;
+}
+.check,
+.checkdate {
+    text-decoration: line-through;
+}

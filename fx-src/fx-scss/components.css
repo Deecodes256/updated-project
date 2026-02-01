@@ -1,0 +1,119 @@
+body {
+  background-color: rgba(128, 128, 128, 0.534);
+  color: #333;
+}
+
+.header {
+  background-color: grey;
+  padding: 1vw;
+}
+
+.delete-goal {
+  background-color: brown;
+  border-radius: 0.5vw;
+}
+
+.url-redirect {
+  color: beige;
+  border: 0.1vw solid black;
+  border-radius: 0.5vw;
+  background-color: black;
+  padding: 0.2vw;
+}
+
+.done-button {
+  background-color: green;
+  border-radius: 0.5vw;
+}
+
+.win-button {
+  background: g;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.loss-button {
+  background: brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.delete-button {
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.stats {
+  margin-bottom: 20px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.darkmode .todo-item {
+  background-color: #1f1f1f;
+}
+
+.tip-paragraph {
+  padding: 1.3vw;
+  background-color: white;
+  border-radius: 1vw;
+  color: #121212;
+}
+
+.tip-label {
+  border: 0.1vw solid black;
+  padding: 0.3vw;
+  border-radius: 0.5vw;
+}
+
+.menu-links {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: rgba(128, 128, 128, 0.836);
+  z-index: 10;
+  background-color: grey;
+}
+
+.menu-links > a:hover {
+  background-color: rgba(128, 128, 128, 0.555);
+  color: #121212;
+}
+
+.menu-links > a {
+  padding: 0.6vw;
+  color: white;
+  border-radius: 0.3vw;
+}
+
+input[type="checkbox"]:checked + .dropdown:after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.dropdown {
+  padding: 0.3vw;
+}
+
+.menu-links {
+  border-radius: 1vw;
+  padding: 1vw;
+}
+
+.link-color {
+  color: white !important;
+}
+
+.home-button {
+  background-color: red;
+}
+/*# sourceMappingURL=components.css.map */

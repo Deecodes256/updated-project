@@ -1,0 +1,172 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  margin: 1vw;
+  background-color: rgba(128, 128, 128, 0.534);
+  color: #333;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.add {
+  background-color: green;
+}
+
+.add-input-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10vw 10vw 10vw 10vw 10vw 10vw;
+      grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.users-class {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 6vw 6vw 6vw 6vw 15vw 7vw 6vw 6vw 6vw 6vw;
+      grid-template-columns: 6vw 6vw 6vw 6vw 15vw 7vw 6vw 6vw 6vw 6vw;
+  gap: 1.5vw;
+  margin-top: 2vw;
+}
+
+.add-goal, .delete-goal {
+  width: 6vw;
+  height: 4.5vh;
+}
+
+.done-button {
+  width: 6vw;
+  height: 4vh;
+}
+
+.url-redirect {
+  font-size: 1vw;
+}
+
+.profit-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: pink;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5vw;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.stats {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.long-termstyles {
+  color: #121212;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.tip-menu {
+  position: relative;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.tip-paragraph {
+  display: none;
+  position: absolute;
+  top: 2.5vw;
+  left: -10.5vw;
+  padding-left: 1vw;
+  width: 28vw;
+}
+
+.total-profit {
+  margin-top: 3vw;
+}
+
+.menu-links {
+  display: none;
+  position: absolute;
+  top: 2.5vw;
+  left: 3.5vw;
+}
+
+input[type="checkbox"]:checked ~ .menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input[type="checkbox"]:checked ~ .tip-paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dropdown::after {
+  content: '▼';
+  margin-top: -1vw;
+}
+
+.dropdown {
+  margin-left: 4vw;
+}
+
+.check, .checkdate {
+  text-decoration: line-through;
+}
+
+.home-button {
+  margin-top: 10vw;
+}
+
+.balance-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2vw;
+  margin-bottom: 2.5vw;
+}
+
+.add {
+  background-color: green;
+}
+
+body {
+  background-color: grey;
+}
+/*# sourceMappingURL=layouts.css.map */

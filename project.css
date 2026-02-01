@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1vw;
+    background-color: rgba(128, 128, 128, 0.534);
+    color: #333;
+}
+
+.header {
+    display: flex;
+    gap: 16vw;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 1vw;
+   background-color: grey;
+
+}
+.tip-container{
+    background-color: green;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+margin-left: 40vw;
+
+clip-path: polygon(0% 15%,
+            /* left top curve start */
+            0% 85%,
+            /* left bottom */
+            5% 100%,
+            /* bottom-left curve */
+            95% 100%,
+            /* bottom-right */
+            95% 45%,
+            /* before notch */
+            100% 30%,
+            /* notch tip */
+            95% 15%,
+            /* after notch */
+            85% 0%,
+            /* top-right corner */
+            5% 0%
+            /* top-left */
+        );
+}
+.tip-button{
+   position: absolute;
+   top: 5vw;
+   left: 76vw;
+}
+.add-input-grid {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+.users-class{
+    display: grid;
+    align-items: center;
+        grid-template-columns: 6vw 6vw 6vw 6vw 15vw 7vw 6vw 6vw 6vw 6vw;
+        gap: 1.5vw;
+        margin-top: 2vw;
+}
+
+.long-term-container{
+    display: grid;
+    grid-template-columns: 19vw 10vw 10vw 10vw;
+    align-items: center;
+    gap: 5vw;
+    background-color:#ffff;
+
+    margin-top: 3.5vw;
+}
+.longterminput,.deadline{
+    width: 15vw;
+    height: 4vh;
+}
+.add-goal,.delete-goal{
+    width: 6vw;
+    height: 4.5vh;
+}
+.delete-goal{
+    background-color: brown;
+    border-radius: 0.5vw;
+}
+.done-button{
+    background-color: green;
+        border-radius: 0.5vw;
+        width: 6vw;
+            height: 4vh;
+}
+.url-redirect{
+    font-size: 1vw;
+    color: beige;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    background-color: black;
+ padding: 0.2vw;
+}
+.win-button {
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.loss-button {
+    background:brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.delete-button {
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.profit-container{
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    gap: 0.5vw;
+    flex-wrap: nowrap;
+}
+.stats {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.long-termstyles{
+    color: #121212;
+    text-decoration: none;
+
+}
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+
+}
+
+.darkmode .todo-item {
+    background-color: #1f1f1f;
+}
+
+.dropdown-menu{
+position: relative;
+
+}
+.tip-menu{
+    position: relative;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.tip-paragraph{
+    display: none;
+        position: absolute;
+        top: 2.5vw;
+        left: -10.5vw;
+        padding-left: 1vw;
+        width: 28vw;
+        padding: 1.3vw;
+        background-color: white;
+        border-radius: 1vw;
+        color: #121212;
+   line-height: 2.5vh;
+}
+.tip-label{
+    border: 0.1vw solid black;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+}
+.total-profit{
+    margin-top: 3vw;
+   
+}
+.menu-links{
+    display: none;
+    position: absolute;
+    top: 2.5vw;
+    left: 3.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+background-color: rgba(128, 128, 128, 0.836);
+z-index: 10;
+background-color: grey;
+}
+.menu-links>a:hover{
+    background-color: rgba(128, 128, 128, 0.555);
+    color: #121212;
+}
+input[type = "checkbox"]:checked~.menu-links{
+display: flex;
+flex-direction: column;
+}
+input[type="checkbox"]:checked~.tip-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+.menu-links>a{
+    color: black;
+color: white;
+    text-decoration: none;
+    padding: 0.6vw;
+    margin-bottom: 0.2vw;
+    border-radius: 0.3vw;
+}
+.dropdown::after{
+    content: '▼';
+    margin-top: -1vw;
+    font-size: 1vw;
+}
+input[type="checkbox"]:checked+.dropdown:after{
+    transform: rotate(180deg);
+
+}
+
+.dropdown{
+margin-left: 4vw;
+padding: 0.3vw;
+}
+
+.menu-links{
+    border-radius: 1vw;
+    padding: 1vw;
+
+}
+.link-color{
+    color: white !important;
+}
+
+.check,.checkdate{
+    text-decoration: line-through;
+}
+
+.home-button{
+    margin-top: 10vw;
+    background-color: red;
+}
+.balance-container{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 2.5vw;
+}
+.add{
+    background-color: green;
+}

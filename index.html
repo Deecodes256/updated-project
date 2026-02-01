@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body class="forexbody">
+    <p class="desktop-only">AVAILABLE FOR DESKTOP ONLY</p>
+    <div class="trading-journal">
+        <h1>Forex trading journal</h1>
+        <div class="header">
+
+
+            <div class="dropdown-menu">
+                <input type="checkbox" name="" id="menu-toggle">
+                <label for="menu-toggle" class="dropdown">select </label>
+                <div class="menu-links">
+                    <a href="">Forex</a>
+                    <a href="futures.html">Futures</a>
+                    <a href="personal-pj.html">Nft</a>
+
+                </div>
+            </div>
+
+
+
+            <button onclick="forexwinrate()">📊 Win Rate</button>
+            <button onclick="forexdarkmode()">🌙 Dark Mode</button>
+
+            <div class="tip-menu">
+                <input type="checkbox" name="" id="tip-toggle">
+                <label for="tip-toggle" class="tip-label">Tips</label>
+                <ul class="tip-paragraph">
+                    <li>Trade with only 1% of your account</li>
+                    <br>
+                    <li>Trade only A+ setups with a minimum of 1:2 RR</li>
+                    <br>
+                    <li>Trade during NY and London sessions</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="balance-container">
+            <input type="text" name="" id="" placeholder="Type-in-capital" class="input-capital">
+            <button class="save-capital" onclick="balance()">Enter</button>
+            <span class="capital-display"></span>
+        </div>
+        <div class="total-profit">
+            <span>Total profit :</span>
+            <span class="total-profit-display"></span>
+        </div>
+        <div class="add-input-grid">
+            <input type="text" placeholder="Project name" class="text-todo" />
+            <input type="date" class="duedate-js" />
+            <button class="add" onclick="forexaddtodo()">Add</button>
+        </div>
+        <div class="stats">
+            <span id="wins">Wins: 0</span>
+            <span id="losses">Losses: 0</span>
+            
+        </div>
+
+        <div class="js-project-list todotask"></div>
+    </div>
+    <script src="./fx-src/fx-js/forex.js"></script>
+
+</body>
+
+</html>

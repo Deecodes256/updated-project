@@ -1,0 +1,22 @@
+.url-redirect {
+  font-size: 1vw;
+}
+
+.tip-paragraph {
+  line-height: 2.5vh;
+}
+
+.menu-links > a {
+  text-decoration: none;
+  margin-bottom: 0.2vw;
+}
+
+.dropdown::after {
+  font-size: 1vw;
+}
+
+.check,
+.checkdate {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=typography.css.map */
